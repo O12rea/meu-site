@@ -96,6 +96,13 @@ main .techs .cards-container .card{
 main .techs .cards-container .card:nth-child(4){
     margin-right: 0em;
 }
+main .techs .cards-container .card:hover{
+    box-shadow: 0px 0px 8px; color: #00E0FF;
+}
 main .main-content .techs .cards-container .card img{
     width: 60%;
+    transition: 0.2s ease-in-out;
 }
+
+
+
